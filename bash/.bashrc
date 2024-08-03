@@ -102,3 +102,4 @@ fi
 ## customisations ##
 ####################
 export PATH=~/.local/scripts:$PATH
+stty quit undef
