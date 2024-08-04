@@ -85,6 +85,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias v="find . -type f ! -path '*/.git/*' -and ! -path '*/.local/share/*' -and ! -path '*/.local/state/*'  | fzf-tmux -p --reverse | xargs nvim"
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
